@@ -1,0 +1,143 @@
+.naturepagetwo{
+    position: absolute;
+    top:3%;
+    left:2%;
+    background-color: #efe3d3;
+    width:96%;
+    height: 94.2%;
+  }
+  .divg{
+    position: absolute;
+    top:0%;
+    left:0%;
+    background-color:#9fa880;
+    border: 2;
+    width:60%;
+    height: 100.2%;
+  }
+  .rec1{
+    position: absolute;
+    top:10%;
+    left:10%;
+    background-color:#efe3d3 ;
+    border: 2;
+    width:35%;
+    height: 15.2%;
+    border-radius: 5px;
+  }
+  .rec2{
+    position: absolute;
+    top:10%;
+    right:10%;
+    background-color:#fac6a2;
+    border: 2;
+    width:35%;
+    height: 15.2%;
+    border-radius: 5px;
+  }
+  .rec3{
+    position: absolute;
+    top:32%;
+    left:10%;
+    background-color:#fac6a2;
+    border: 2;
+    width:35%;
+    height: 15.2%;
+    border-radius: 5px;
+  }
+  .rec4{
+    position: absolute;
+    top:32%;
+    right:10%;
+    background-color:#efe3d3;
+    border: 2;
+    width:35%;
+    height: 15.2%;
+    border-radius: 5px;
+  }
+  .rec5{
+    position: absolute;
+    bottom:32%;
+    left:10%;
+    background-color:#efe3d3;
+    border: 2;
+    width:35%;
+    height: 15.2%;
+    border-radius: 5px;
+  }
+  .rec6{
+    position: absolute;
+    bottom:32%;
+    right:10%;
+    background-color:#fac6a2;
+    border: 2;
+    width:35%;
+    height: 15.2%;
+    border-radius: 5px;
+  }
+  .rec7{
+    position: absolute;
+    bottom:10%;
+    left:10%;
+    background-color:#fac6a2;
+    border: 2;
+    width:35%;
+    height: 15.2%;
+    border-radius: 5px;
+  }
+  .rec8{
+    position: absolute;
+    bottom:10%;
+    right:10%;
+    background-color:#efe3d3;
+    border: 2;
+    width:35%;
+    height: 15.2%;
+    border-radius: 5px;
+  }
+
+  h2{
+    position: absolute;
+    top:15%;
+    right:5%;
+    color:#000000;
+    display:block;
+    font-size: 75px;
+    text-align: left;
+  }
+  .naturepagethree{
+    position: absolute;
+    top:203%;
+    left:2%;
+    background-color: #efe3d3;
+    width:96%;
+    height: 94.2%;
+  }
+  .naturepagefour{
+    position: absolute;
+    top:303%;
+    left:2%;
+    background-color: #efe3d3;
+    width:96%;
+    height: 94.2%;
+  }
+  .h4{
+    margin: auto;
+    padding: 6px;
+    text-align: center;
+    font-weight: 800;
+  }
+  p{
+    position: absolute;
+  
+    
+  }
+  h3{
+    position: absolute;
+    top:10%;
+    left:5%;
+    color:#000000;
+    display:block;
+    font-size: 85px;
+    text-align: left;
+  }

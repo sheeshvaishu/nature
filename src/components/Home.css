@@ -1,0 +1,109 @@
+.naturepageone {
+  position: absolute;
+  top: 3%;
+  left: 2%;
+  background-color: #f6ecdf;
+  width: 96%;
+  height: 94.2%;
+}
+
+h1{
+  position: absolute;
+  right: 40px;
+  z-index: 200;
+  top: 50%;
+  font-size: 20px;
+  font-family:serif;
+  font-weight: 500;
+  text-align: left;
+  opacity: 0; /* Initially hidden */
+  transform: translateY(200%); /* Start off-screen with a smaller translate value */
+  transition: all 1s cubic-bezier(0.39, 0.58, 0.57, 1);
+}
+.h1-visible{
+    opacity: 1; /* Make visible */
+    transform: translateX(0); /* Slide to final position */
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0% 50% 60% 0%;
+  overflow: hidden;
+}
+
+.nature {
+  position: absolute;
+  color: #adb690;
+  top: 15%;
+  right: 12%;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  text-shadow: 1px 1px 1px #72795b;
+  font-size: 170px;
+  opacity: 0; /* Initially hidden */
+  transform: translateX(40%); /* Start off-screen with a smaller translate value */
+  transition: all 0.8s cubic-bezier(0.39, 0.58, 0.57, 1); /* Smooth transition */
+}
+
+/* When the page loads and the transition starts */
+.nature-visible {
+  opacity: 1; /* Make visible */
+  transform: translateX(0); /* Slide to final position */
+}
+
+
+.circleone {
+  position: absolute;
+  top: 6%;
+  left: 45%;
+  background-color: #b0b798;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.circletwo {
+  position: absolute;
+  top: 9%;
+  left: 40%;
+  background-color: #c73d02d7;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.circlethree {
+  position: absolute;
+  top: 17%;
+  left: 43.5%;
+  background-color: #fac6a2;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.circlefour {
+  position: absolute;
+  top: -7.1%;
+  left: -10%;
+  background-color: #adb690;
+  height: 750px;
+  width: 750px;
+  border-radius: 50%;
+}
+@media (max-width: 480px) {
+  .image{
+    height: 50%;
+    width: 100%;
+    border-radius: 0% 0% 0% 0%;
+  }
+.nature{
+  z-index: 100;
+  font-size: 50px;
+  color: white;
+  top:50px;
+  left:50px;
+}
+}

@@ -1,0 +1,77 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  body{
+    background-color: #adb690;
+  }
+  
+  
+    nav{
+        flex: 15;
+        position:absolute;
+       top: 4%;
+        right: 2%;
+      
+        font-size: 20px;
+        text-decoration: none;
+        list-style: none;
+        z-index: 1000;
+
+     
+      }
+      p{
+        position: absolute;
+        top: 20px;
+      }
+      li{
+        margin: 0 50px;
+        padding: 10px 10px;
+        display: inline-block;
+        list-style: none;
+        text-decoration: none;
+      }
+      a li{
+        color: black;
+        text-decoration: none;
+        list-style: none;
+      }
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  nav {
+      position: relative;
+      top: 0;
+      right: 0;
+      font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  p {
+      top: 10px;
+  }
+
+  li {
+      display: block; /* Stack list items vertically on small screens */
+      margin: 10px 0; /* Adjust spacing between items */
+      text-align: center; /* Center align list items */
+  }
+
+  a li {
+      color: black;
+      text-decoration: none;
+  }
+}
+
+/* Further adjustments for very small screens (e.g., mobile devices) */
+@media (max-width: 480px) {
+  nav {
+      font-size: 14px; /* Reduce font size even more */
+  }
+
+  li {
+      padding: 15px 0; /* Increase padding for touch devices */
+  }
+}
+      
+

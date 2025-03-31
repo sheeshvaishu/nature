@@ -1,0 +1,171 @@
+.introduction-page {
+  position: absolute;
+  top: 3%;
+  left: 2%;
+  background-color: #efe3d3;
+  width: 96%;
+  height: 94%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Aligns items starting from the top */
+  align-items: center; /* Centers content horizontally */
+  font-family: 'Arial', sans-serif;
+}
+
+
+
+/* Hero Section */
+.hero-section {
+  width: 100%;
+  text-align: center;
+}
+
+.hero-section h5 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #8A9A5B; /* Sage green color */
+  margin-bottom: 10px; /* Reduced margin to bring it closer to the next element */
+}
+
+.hero-section p1 {
+  font-size: 18px;
+  color: #000000; /* Black color for all p tags */
+  max-width: 800px;
+  margin: 0 auto 10px auto; /* Reduced bottom margin to remove extra space */
+}
+
+.explore-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  position: absolute;
+  top:25%;
+  left:44%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px; /* Reduced margin to minimize space */
+  display: inline-block; /* This allows the button to shrink to its content */
+  width: auto; /* Removes 100% width */
+  max-width: 300px; /* You can adjust this max-width based on your preference */
+  text-align: center;
+}
+
+.hero-section .explore-button:hover {
+  background-color: #fbaa6f9a;
+}
+
+/* About Section */
+.about-section {
+  width: 100%;
+  text-align: center;
+  margin: 1px;
+  padding: 30px;
+}
+
+.about-section h6 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #8A9A5B; /* Sage green color */
+  margin-bottom: 10px; /* Reduced margin */
+}
+
+.about-section p2 {
+  font-size: 16px;
+  color: #000000; /* Black color for all p tags */
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  
+}
+
+/* Features Section */
+.features-section {
+  width: 100%;
+  text-align: center;
+  
+}
+
+.features-section h8 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #8A9A5B; /* Sage green color */
+  margin-bottom: 60px; /* Reduced margin */
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  /* Reduced gap between grid items */
+  justify-items: center;
+  position: relative;
+  margin-left: 200px;
+}
+
+.feature {
+  background-color: #f4f4f4;
+  padding: 15px; /* Reduced padding */
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-left: 20px;
+  justify-content: center;
+}
+
+.feature h7 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #8A9A5B; /* Sage green color */
+  margin-bottom: 5px; /* Reduced margin */
+}
+
+.feature p3, p4, p5 {
+  font-size: 14px;
+  color: #000000; /* Black color for all p tags */
+  line-height: 1.4;
+}
+
+/* Call-to-Action Section */
+.cta-section {
+  width: 100%;
+  text-align: center;
+}
+
+.cta-section h9 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #8A9A5B; /* Sage green color */
+  margin-bottom: 10px; /* Reduced margin */
+}
+
+.cta-section p8 {
+  font-size: 18px;
+  color: #000000; /* Black color for all p tags */
+  margin-bottom: 20px; /* Reduced margin */
+}
+
+.cta-section .join-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+  display: inline-block; /* This allows the button to shrink to its content */
+  width: auto; /* Removes 100% width */
+  max-width: 300px; /* You can adjust this max-width based on your preference */
+  text-align: center;
+  position: absolute;
+  bottom:10%;
+  left:44%;
+}
+
+.cta-section .join-button:hover {
+  background-color: #45a049;
+}

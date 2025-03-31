@@ -1,0 +1,115 @@
+.naturepagecom{
+    
+        position: absolute;
+        top:3%;
+        left:2%;
+        background-color: #efe3d3;
+        width:96%;
+        height: 94.2%;
+
+}
+.communitycen{
+ position:absolute;
+ top:30%;
+ left:35%;
+}
+  /* Form container */
+  .info-form {
+    background-color: #adb690; /* White background for the form */
+    border-radius: 20px; /* Slightly rounded corners for a soft look */
+    padding: 40px 30px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+ 
+  
+  /* Header Styling */
+  h60 {
+    color: #000000; /* Cute coral color */
+    font-size: 20px;
+   position: absolute;
+   top:20%;
+   left:32%;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  background-color: #adb690;
+  }
+  
+  p {
+    color: #555; /* Soft gray color */
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-weight: 400;
+  }
+  
+  /* Input fields */
+  .input-field {
+    width: 90%;
+    padding: 14px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    color: #838383;
+    background-color: #ffffff; /* Light background for input fields */
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Input focus state */
+  .input-field:focus {
+    outline: none;
+    border-color: #ff6f61; /* Coral color on focus */
+    box-shadow: 0 0 5px rgba(255, 111, 97, 0.5); /* Soft glowing effect */
+  }
+  
+  /* Submit button */
+  .submit-button {
+    background-color: #ff6f61; /* Cute coral button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 14px;
+    border-radius: 25px;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #ff856a; /* Slightly darker coral on hover */
+  }
+  
+  .submit-button:active {
+    transform: scale(0.98); /* Slight shrink effect on click */
+  }
+  
+  /* Placeholder text style */
+  input::placeholder {
+    color: #bbb; /* Light gray placeholder text */
+  }
+  
+  input:focus::placeholder {
+    color: transparent; /* Hide placeholder text when focused */
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 480px) {
+    .info-form {
+      padding: 30px 20px;
+      max-width: 100%; /* Ensure form takes up full width on small screens */
+    }
+  
+    h2 {
+      font-size: 24px; /* Smaller font size on small screens */
+    }
+  
+    p {
+      font-size: 14px; /* Smaller paragraph text */
+    }
+  }
+  
